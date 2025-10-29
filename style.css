@@ -1,0 +1,73 @@
+body {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.music-info h2 {
+  margin: 10px 0 5px;
+  font-size: 22px;
+}
+
+.music-info h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.controls button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  color: #00ffff;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #444;
+  border-radius: 5px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+#progress {
+  height: 8px;
+  background: #00ffff;
+  width: 0%;
+  border-radius: 5px;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.volume {
+  margin-top: 10px;
+}
+
+#volume-control {
+  width: 100%;
+}
